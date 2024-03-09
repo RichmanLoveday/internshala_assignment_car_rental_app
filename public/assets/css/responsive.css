@@ -1,0 +1,37 @@
+@media (max-width: 860.5px) {
+    .wrapper {
+        margin: 50px 5px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 767.5px) {
+    .wrapper {
+        flex-direction: column;
+        margin: 30px 20px;
+        width: 100%;
+    }
+
+    .wrapper .form-left {
+        border-bottom-left-radius: 0px;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+
+    .wrapper {
+        margin: 30px 15px;
+        width: 100%;
+    }
+
+    .wrapper .form-left {
+        padding: 25px;
+    }
+
+    .wrapper .form-right {
+        padding: 25px;
+    }
+}
